@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PORSCHE 911 GT3 RS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,200;0,14..32,300;0,14..32,400;0,14..32,500;0,14..32,600;1,14..32,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Yeni Siyah Üst Menü -->
+  <nav class="top-nav">
+    <div class="nav-logo">PORSCHE</div>
+    <div class="nav-links">
+      <a href="#">Modeller</a>
+      <a href="#">Konfigüratör</a>
+      <a href="#">Keşfet</a>
+    </div>
+  </nav>
+
+  <div class="scroll-container">
+    <div class="sticky-wrapper">
+      <canvas id="hero-canvas"></canvas>
+
+      <div class="vignette"></div>
+      <div class="bottom-fade"></div>
+
+      <div class="text-overlays">
+
+        <!-- Scene 1: Arriving -->
+        <div class="panel p0 active">
+          <p class="eyebrow">992 Nesli</p>
+          <h1>911 GT3 RS<br><em>Sınırların Ötesi.</em></h1>
+          <div class="scroll-cue">
+            <svg width="20" height="32" viewBox="0 0 20 32" fill="none">
+              <rect x="1" y="1" width="18" height="30" rx="9" stroke="white" stroke-opacity=".5" stroke-width="1.5"/>
+              <rect x="9" y="6" width="2" height="6" rx="1" fill="white" fill-opacity=".7" class="scroll-dot"/>
+            </svg>
+            <span class="scroll-text">Aşağı Kaydırın</span>
+          </div>
+        </div>
+
+        <!-- Scene 2: Wheels -->
+        <div class="panel p1">
+          <span class="tag">Dinamik</span>
+          <h2>Magnezyum &<br>Kusursuz Temas</h2>
+          <p>Özel dövme magnezyum jantlar ve merkez kilit sistemi, yaysız kütleyi minimuma indirerek yolla olan telepatik bağı kurar.</p>
+        </div>
+
+        <!-- Scene 3: Headlight -->
+        <div class="panel p2">
+          <span class="tag">Odak</span>
+          <h2>Lazer<br>Keskinliğinde Bakış</h2>
+          <p>Karanlığı yırtan Matrix LED farlar, pistteki her detayı gün ışığı netliğinde sürücüye aktarır.</p>
+        </div>
+
+        <!-- Scene 4: Interior -->
+        <div class="panel p3">
+          <span class="tag">Kokpit</span>
+          <h2>Sürücüyle<br>Bütünleşik</h2>
+          <p>Karbon fiber yarış koltukları ve alcantara kaplı direksiyon, seni doğrudan otomobilin mekanik kalbine bağlar.</p>
+        </div>
+
+        <!-- Scene 5: Side Profile -->
+        <div class="panel p4">
+          <span class="tag">Tasarım</span>
+          <h2>Aerodinamik<br>Silüet</h2>
+          <p>Havayı bir bıçak gibi kesen ikonik 911 çizgileri, karbon fiber detaylarla zenginleşerek agresif bir duruş sergiler.</p>
+        </div>
+
+        <!-- Scene 6: Distant Shot -->
+        <div class="panel p5">
+          <span class="tag">Performans</span>
+          <h2>Vahşi Doğasında</h2>
+          <p>Motor 9000 devirde çığlık atarken, saf ve filtresiz yarış genleri asfalt ağladığında kendini belli eder.</p>
+        </div>
+
+        <!-- Scene 7: Fender -->
+        <div class="panel p6">
+          <span class="tag">Mühendislik</span>
+          <h2>Karbon Fiber<br>Zırh</h2>
+          <p>Genişletilmiş karbon çamurluklar ve devasa hava kanalları, soğutma ve yere basma kuvvetini aynı anda maksimize eder.</p>
+        </div>
+
+        <!-- Scene 8: Spoiler -->
+        <div class="panel p7">
+          <span class="tag">Aerodinami</span>
+          <h2>Rüzgara Hükmet</h2>
+          <p>F1 teknolojisinden ilham alan devasa DRS (Drag Reduction System) kanat, havayı yararak 860 kg'a varan yere basma kuvveti üretir.</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <section class="stats-section">
+    <div class="stats-grid">
+      <div class="stat"><span class="num">525</span><span class="unit">PS</span><span class="lbl">Motor Gücü</span></div>
+      <div class="stat"><span class="num">3.2</span><span class="unit">sn</span><span class="lbl">0–100 km/s</span></div>
+      <div class="stat"><span class="num">296</span><span class="unit">km/h</span><span class="lbl">Azami Hız</span></div>
+      <div class="stat"><span class="num">860</span><span class="unit">kg</span><span class="lbl">Yere Basma Kuvveti</span></div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p class="footer-badge">Porsche GT Floss — 2024</p>
+    <h2>Pisti Sokağa<br>Taşıyın.</h2>
+    <p class="footer-sub">Dünyanın en saf sürüş deneyimini keşfet. Her viraj, her fren noktası — kusursuz hissettirmek için tasarlandı.</p>
+    <a href="https://www.porsche.com/international/models/911/911-gt3-rs/911-gt3-rs/" class="cta-btn">Konfigüratöre Git</a>
+    <div class="footer-divider"></div>
+    <p class="footer-meta">Porsche AG · 911 GT3 RS · 992</p>
+    
+    <div class="legal-disclaimer">
+      <p><strong>Yasal Uyarı / Disclaimer:</strong> Bu web sitesi ticari bir amaç güdülmeden, tamamen bireysel web geliştirme yeteneklerini test etmek ve portfolyo amacıyla tasarlanmıştır. Sitede kullanılan video materyalleri (<a href="https://www.youtube.com/watch?v=Ta_CMBtrZeI" target="_blank">YouTube: Ta_CMBtrZeI</a>) ve "Porsche", "911", "GT3 RS" gibi ticari markalar tamamen <strong>Dr. Ing. h.c. F. Porsche AG</strong>'ye aittir. Hiçbir ticari marka veya kuruluşa zarar verme, haksız kazanç sağlama amacı taşımamaktadır. Telif hakkı, marka veya hukuki konularla ilgili herhangi bir talep/şikayet için lütfen <a href="mailto:semihusttt@gmail.com">semihusttt@gmail.com</a> adresi üzerinden iletişime geçiniz; ilgili içerik derhal kaldırılacaktır.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
